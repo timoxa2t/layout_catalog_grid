@@ -6,7 +6,7 @@
   margin: 0 auto;
 
   @media (max-width: 488px) {
-    grid-template-columns: repeat(1, $card-width);
+    grid-template-columns: $card-width;
   }
 
   @media (min-width: 488px) and (max-width: 768px) {
@@ -25,7 +25,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: $card-width;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
