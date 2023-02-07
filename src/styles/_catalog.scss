@@ -4,16 +4,13 @@
   gap: $card-spacing;
   max-width: $card-width * 4 + $card-spacing * 3;
   margin: 0 auto;
+  grid-template-columns: $card-width;
 
-  @media (max-width: 488px) {
-    grid-template-columns: $card-width;
-  }
-
-  @media (min-width: 488px) and (max-width: 768px) {
+  @media (min-width: 488px) {
     grid-template-columns: repeat(2, $card-width);
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) {
     grid-template-columns: repeat(3, $card-width);
   }
 
