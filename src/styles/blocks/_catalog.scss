@@ -2,7 +2,6 @@
   display: grid;
   justify-content: center;
   gap: $card-spacing;
-  max-width: $card-width * 4 + $card-spacing * 3;
   margin: 0 auto;
   grid-template-columns: $card-width;
 
